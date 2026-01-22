@@ -5,7 +5,9 @@ a "simple" program that lets you make 64x64 pixel art and nothing else (not even
 ## specification
 
 64x64 screen
+
 1024 bytes of memory
+
 (both are easily expandable if you want to go through the source code and change it)
 
 ## usage
@@ -15,6 +17,7 @@ simply launch "untitledpixelartprogram.console.exe" or "untitledpixelartprogram.
 **!!! CUSTOM COLORS ARE NOT CURRENTLY SUPPORTED !!!**
 
 on linux, i highly recommend launching the program inside a terminal window so you have access to the debug logs (on windows, this should be done automatically if you launch "untitledpixelartprogram.console.exe")
+
 the command below assumes you ARE in the same folder as the executable files
 
 ```
