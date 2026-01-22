@@ -1,4 +1,5 @@
-# untitled pixel art program
+![cooltext500677313913238](https://github.com/user-attachments/assets/7c0b1a71-e2f5-4c23-9350-d6770dd2ca0c)
+
 a "simple" program that lets you make 64x64 pixel art and nothing else (not even save them)
 
 ## specification
