@@ -9,7 +9,9 @@ a "simple" program that lets you make 64x64 pixel art and nothing else (not even
 
 ## usage
 
-simply launch "untitledpixelartprogram.console.exe" or "untitledpixelartprogram.sh", depending on your operating system
+simply launch "untitledpixelartprogram.console.exe" or "untitledpixelartprogram.sh", depending on your operating system, and edit "main.txt" to change the output of the file
+
+**!!! CUSTOM COLORS ARE NOT CURRENTLY SUPPORTED !!!**
 
 on linux, i highly recommend launching the program inside a terminal window so you have access to the debug logs (on windows, this should be done automatically if you launch "untitledpixelartprogram.console.exe")
 the command below assumes you ARE in the same folder as the executable files
@@ -55,3 +57,5 @@ IF [BYTE] [EXPECTED VALUE] [LINE TO JUMP TO]
 
 NOT [BYTE] [EXPECTED VALUE] [LINE TO JUMP TO]
  - jumps to a specific line of code if a specified byte is NOT equal to the given value
+
+i'll make a proper documentation and readme file later, for now just ask me shit on discord
