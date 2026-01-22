@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-config/name="untitled pixel art program"
-config/version="1.1"
+config/name="Doohickeysprite"
+config/version="1.2"
 run/main_scene="uid://cwxjl342owc8d"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"

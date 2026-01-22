@@ -70,7 +70,7 @@ func interpret(line:Array, lines:Array):
 			Evaluator.pc += 1
 			Evaluator.functions.set(curFunctionDefinition.FunctionName, curFunctionDefinition)
 		"END":
-			push_error("There is no function to be declared!")
+			push_warning("There is no function to be declared! Is this a mistake on your part or are you trying to make a fucked up jump loop?")
 		"CALL":
 			Evaluator.remembered_pc_positions.push_front(Evaluator.pc)
 			var func_data:FunctionData = Evaluator.functions[line[1]]
