@@ -52,10 +52,10 @@ CALL [NAME]
 JUMP [LINE]
  - jumps to a specific line of code
 
-IF [BYTE] [EXPECTED VALUE] [LINE TO JUMP TO]
- - jumps to a specific line of code if a specified byte is equal to the given value
+IF [BYTE] [EXPECTED BYTE] [LINE TO JUMP TO]
+ - jumps to a specific line of code if a specified byte is equal to the value of the given byte
 
-NOT [BYTE] [EXPECTED VALUE] [LINE TO JUMP TO]
- - jumps to a specific line of code if a specified byte is NOT equal to the given value
+NOT [BYTE] [EXPECTED BYTE] [LINE TO JUMP TO]
+ - jumps to a specific line of code if a specified byte is NOT equal to the value of the given byte
 
 i'll make a proper documentation and readme file later, for now just ask me shit on discord

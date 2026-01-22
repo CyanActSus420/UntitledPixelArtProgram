@@ -1,6 +1,6 @@
 ; this is a very simple example of a program, it is NOT optimized whatsoever and pretty dirty
-; as of the time of writing this, this outputs a sprite of Niko from the game OneShot (not a 1:1 recreation due to the lack of colors)
-; of course, the sprite is not mine. it belongs to Future Cat LLC
+; as of the time of writing this, this outputs a sprite of Niko from the game OneShot (not a 1:1 recreation due to the lack of colors). of course, the sprite is not mine. it belongs to Future Cat LLC
+; NOTE: this was designed for 1.0, BEFORE the loop bugfix. this will NOT work on any more recent version!
 
 ; byte 1 will be set to the X position of our target pixel (the pixel we want to add)
 ; byte 2 will be set to the Y position

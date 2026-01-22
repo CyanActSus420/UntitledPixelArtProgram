@@ -2,3 +2,5 @@ res://scenes/classes/Pixel.tscn
 res://src/autoload/global.gd
 res://main.txt
 res://examples/niko.txt
+res://README.md
+res://src/autoload/interpreter.gd

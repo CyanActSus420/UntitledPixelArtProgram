@@ -74,10 +74,10 @@ func interpret(line:Array, lines:Array):
 			Evaluator.remembered_pc_positions.remove_at(0)
 		# if """statements"""
 		"IF":
-			if Evaluator.bytes[int(line[1])] == int(line[2]):
+			if Evaluator.bytes[int(line[1])] == Evaluator.bytes[int(line[2])]:
 				Evaluator.pc = int(line[3]) - 1
 		"NOT":
-			if Evaluator.bytes[int(line[1])] != int(line[2]):
+			if Evaluator.bytes[int(line[1])] != Evaluator.bytes[int(line[2])]:
 				Evaluator.pc = int(line[3]) - 1
 		# other
 		"JUMP":

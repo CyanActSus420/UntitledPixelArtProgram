@@ -1,5 +1,6 @@
 ; put your code here
 ; you can also use the --file launch argument to use a custom file (--file=[file name])
+; you can find some examples on the github
 
 ; sets byte 0 to 1
 SET 1 0
