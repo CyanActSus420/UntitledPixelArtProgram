@@ -2,6 +2,18 @@ extends Node
 
 var main = null
 
+# just holding onto this shit until i add custom colors
+#var defaultcolors:Array[Color] = [
+	#Color("000000ff"),
+	#Color("282828ff"),
+	#Color("636363ff"),
+	#Color("707070ff"),
+	#Color("888888ff"),
+	#Color("939393ff"),
+	#Color("c6c6c6ff"),
+	#Color("ffffffff")
+#]
+
 var colors:Array[Color] = [
 	Color("000000ff"),
 	Color("282828ff"),
