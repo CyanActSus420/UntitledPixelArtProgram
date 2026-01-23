@@ -6,3 +6,10 @@
 script = ExtResource("1_elqb8")
 
 [node name="PixelStorage" type="Node2D" parent="."]
+
+[node name="EvaluationStart" type="Timer" parent="."]
+wait_time = 0.1
+one_shot = true
+autostart = true
+
+[connection signal="timeout" from="EvaluationStart" to="." method="_on_evaluation_start_timeout"]

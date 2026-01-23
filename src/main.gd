@@ -24,14 +24,9 @@ func _ready() -> void:
 		var colors:String = FileAccess.open("./%s" % args["color_palette"], FileAccess.READ).get_as_text()
 		Global.setColorPalette(colors)
 	
-	
 	if !FileAccess.file_exists(target):
 		push_error("File %s doesn't exist!" % target)
 		get_tree().quit(1)
-	
-	var file:String = FileAccess.open(target, FileAccess.READ).get_as_text()
-	
-	Evaluator.evaluate(file)
 
 func _exit_tree() -> void:
 	Global.main = null
@@ -39,3 +34,9 @@ func _exit_tree() -> void:
 func ClearScreen():
 	for pixel in pixel_storage.get_children():
 		pixel.queue_free()
+
+# wait for a little bit so we dont have to wait until the program is done being evaluated
+func _on_evaluation_start_timeout() -> void:
+	var file:String = FileAccess.open(target, FileAccess.READ).get_as_text()
+	
+	Evaluator.evaluate(file)
